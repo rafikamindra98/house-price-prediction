@@ -1,0 +1,14 @@
+{
+  "model_name": "Ensemble Blending (Ridge 60% + XGBoost 40%)",
+  "target_transformation": "log1p",
+  "test_log_rmse": 0.11692859629373935,
+  "test_r2": 0.9188954819895396,
+  "test_mae_usd": 13485.693391012468,
+  "versions": {
+    "python": "3.13.16",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "xgboost": "3.4.1",
+    "joblib": "1.6.0"
+  }
+}
